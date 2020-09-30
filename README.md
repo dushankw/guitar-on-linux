@@ -2,6 +2,8 @@
 
 The audio interface being used is a `Native Instruments Komplete Audio 1`
 
+The distribution being used is Fedora 32
+
 ### Hardware settings for the audio interface
 
 * USB - Connected to computer
