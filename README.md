@@ -6,6 +6,8 @@ The distribution being used is Fedora 32
 
 ### Hardware settings for the audio interface
 
+https://www.native-instruments.com/en/komplete-audio-1-quickstart/
+
 * USB - Connected to computer
 * IN1 - Disconnected - Gain set to zero
 * IN2 - Connect guitar here - Gain set to zero (manage it in Guitarx)
