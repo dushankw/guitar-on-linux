@@ -28,6 +28,24 @@ sudo dnf install guitarix audacity jack-audio-connection-kit qjackctl \
     alsa-plugins-jack pulseaudio-module-jack jack_capture
 ```
 
+##### On Ubuntu (22.04)
+
+NOTE: The `jackd2` package will create the required limits file in `/etc/security/limits.d`
+
+```
+sudo apt update
+sudo apt install jackd2 pulseaudio-module-jack qjackctl
+sudo apt install audacity guitarix
+sudo usermod -a -G audio "$USER"
+sudo reboot
+```
+
+Starting JACK
+
+```
+jack_control start
+```
+
 ### Real time scheduling for JACK
 
 Due to audio being latency sensitive, JACK requires real time scheduling.
